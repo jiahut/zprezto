@@ -27,24 +27,24 @@ zstyle ':prezto:*:*' color 'yes'
 # Set the Prezto modules to load (browse modules).
 # The order matters.
 zstyle ':prezto:load' pmodule \
-  'autosuggestions' \
   'environment' \
-  'utility' \
-  'gnu-utility' \
-  'completion' \
   'terminal' \
   'editor' \
   'history' \
-  'history-substring-search' \
   'directory' \
   'spectrum' \
+  'utility' \
+  'completion' \
+  'gnu-utility' \
+  'history-substring-search' \
+  'directory' \
   'homebrew' \
+  'autosuggestions' \
   'osx' \
   'ruby' \
   'rails' \
   'helper' \
   'emacs' \
-  'directory' \
   'git' \
   'node' \
   'python' \
@@ -136,7 +136,6 @@ zstyle ':prezto:module:editor' dot-expansion 'yes'
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
 zstyle ':prezto:module:prompt' theme 'agnoster'
-#zstyle ':prezto:module:prompt' theme 'off'
 
 # Set the working directory prompt display length.
 # By default, it is set to 'short'. Set it to 'long' (without '~' expansion)
